@@ -5,6 +5,10 @@ Executa uma ação enquanto uma condição for verdadeira
 Loop infinito -> Quando um código não tem fim
 """
 
+"""
+Operadores de atribuição
+= += -= *= /= //= **= %=
+"""
 # condicao = True
 
 # while condicao:
