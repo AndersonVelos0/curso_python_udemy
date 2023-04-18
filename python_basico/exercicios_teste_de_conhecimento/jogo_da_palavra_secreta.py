@@ -33,7 +33,6 @@ while True:
     if letra_digitada in palavra_secreta:
         letras_acertadas += letra_digitada
 
-    
     palavra_formada = ''
     # Para exibir os acertos, é necessário percorrer letra por letra com o for 
     palavra_formada = ''
