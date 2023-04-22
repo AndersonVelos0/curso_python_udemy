@@ -25,6 +25,8 @@ for _ in range(100):
     # print(digito_1)
 
 
+
+
     # Calculando o segundo digito do CPF
 
     # Adicionando o digito 1 na string tornando-a com 11 indices
