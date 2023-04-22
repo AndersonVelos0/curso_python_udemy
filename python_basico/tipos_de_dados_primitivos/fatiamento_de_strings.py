@@ -11,3 +11,4 @@ variavel = 'Olá mundo'
 print(len(variavel))
 print(variavel[0:1:2])
 print(variavel[::-1])
+print(variavel[0:7:2])

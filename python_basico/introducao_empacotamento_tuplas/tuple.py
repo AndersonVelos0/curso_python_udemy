@@ -7,6 +7,7 @@ Tipo tupla - Uma lista imutável
 nomes = ['Maria', 'Helena', 'Luiz']
 # convertendo uma lista para tupla
 nomes = tuple(nomes)
+print(nomes)
 # convertendo uma tupla em lista
 nomes = list(nomes)
 print(nomes[0])

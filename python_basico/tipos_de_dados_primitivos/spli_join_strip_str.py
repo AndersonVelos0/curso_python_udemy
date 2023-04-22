@@ -9,10 +9,12 @@ frase = 'Olha só que, coisa interessante'
 # lista_palavras = frase.split()
 # Separando pela virgula da frase
 lista_frases_original = frase.split()
+print(lista_frases_original)
 
 lista_frases = []
 for i, frase in enumerate(lista_frases_original):
     # Tirando os espaços do começo e do fim da string
+    # A variavel lista_frases foi criada para que a edição da frase original não seja feita diretamente
     lista_frases.append(lista_frases_original[i].strip())
     # também tem r strip que corta os espaços da direita e l strip que corta os da esquerda
 

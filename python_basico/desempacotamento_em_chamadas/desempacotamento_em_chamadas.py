@@ -20,7 +20,7 @@ print(p,u )
 
 # Iterando sobre os itens da lista 
 for nome in lista:
-    print(nome, end = ' ')
+    print(nome, end = '--')
 
 # Iterando sobre cada um dos itens utilizando só a função print 
 print(*string)

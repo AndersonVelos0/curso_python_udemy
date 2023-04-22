@@ -25,4 +25,4 @@ print(lista, type(lista))
 lista [-3] = 'Andersin'
 # Checando os tipos especificos dos indices 
 print(lista[2].upper(), type(lista[2]))
-
+print(lista)

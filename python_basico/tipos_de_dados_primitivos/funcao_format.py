@@ -9,3 +9,5 @@ formato = string.format(
 )
 
 print(formato)
+
+print('A variavel a: {}, variavel b:{}, variavel c: {:.4f}'.format(a,b,c))

@@ -17,7 +17,7 @@ Operadores de atribuição
     
 #     if nome == 'sair':
 #         break
-    
+  
     
 # print('Acabou!')
 
