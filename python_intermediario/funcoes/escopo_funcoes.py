@@ -33,3 +33,4 @@ escopo()
 # rodar a outra_funcao, ler o código, em seguida irá executá-la e finaliza com a função escopo
 # Os escopos das funções tem suas variaveis guardadas dentro do escopo local
 # Algo se assemelha a uma boneca russa, com cada camada fechada
+# Do escopo interno, podemos acessar o escopo externo
