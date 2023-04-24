@@ -38,3 +38,4 @@ escopo()
 
 # O código roda atraves do call stack (pilha de chamadas), desta forma, ele vai salvando os lugares na memoria
 # neste exemplo, ele irá pausar a execução e criará outro lugar na memoria para armazenar as variaveis, como se abrissem instancias 
+# Ele resolve esse armazenamento e após isso ele vem retirando as pilhas de cima
