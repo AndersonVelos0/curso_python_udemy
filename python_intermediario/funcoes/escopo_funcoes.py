@@ -34,3 +34,7 @@ escopo()
 # Os escopos das funções tem suas variaveis guardadas dentro do escopo local
 # Algo se assemelha a uma boneca russa, com cada camada fechada
 # Do escopo interno, podemos acessar o escopo externo
+# Ele busca a variavel de dentro para fora
+
+# O código roda atraves do call stack (pilha de chamadas), desta forma, ele vai salvando os lugares na memoria
+# neste exemplo, ele irá pausar a execução e criará outro lugar na memoria para armazenar as variaveis, como se abrissem instancias 
