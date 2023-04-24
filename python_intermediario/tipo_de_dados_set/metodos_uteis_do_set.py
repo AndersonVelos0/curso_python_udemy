@@ -1,11 +1,6 @@
 # Métodos úteis:
 # add, update, clear, discard
 
-# Operadores úteis:
-# união | união (union) - Une
-# intersecção & (intersection) - Itens presentes em ambos
-# diferença - Itens presentes apenas no set da esquerda
-# diferença simétrica ^ - Itens que não estão em ambos
 
 # criando e adicionando
 s1 = set()
@@ -22,3 +17,13 @@ print(s1)
 # eliminando o valor passando o proprio valor
 s1.discard('Ola mundo!')
 print(s1)
+
+
+
+# Operadores úteis:
+# união | união (union) - Une
+# intersecção & (intersection) - Itens presentes em ambos
+# diferença - Itens presentes apenas no set da esquerda
+# diferença simétrica ^ - Itens que não estão em ambos
+
+
