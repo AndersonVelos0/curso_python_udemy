@@ -3,7 +3,8 @@ Higher Order Functions
 Funções de primeira classe
 """
 
-# As funções em python podem ser tratadas como qualquer tipo de dados
+# As funções FIRST CLASS functions em python podem ser tratadas como qualquer tipo de dados
+# Já as higher ordes functions recebem outras funções como parametro
 
 def saudacao(msg, nome):
     return f'{msg}, {nome}!'
