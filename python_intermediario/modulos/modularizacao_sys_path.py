@@ -8,10 +8,15 @@
 # O python conhece todos os módulos e pacotes presentes na mesma pasta
 # nos caminhos de sys.path
 
-import sys
+# import sys
+
 # Está importando o módulo da aula no pacote módulo
 import aula97_m
+# importando especificamente
+from aula97_m import testando_importacao
 
+print(aula97_m.testando_importacao)
+print(testando_importacao)
 # Verificando o nome do módulo
 print('Este módulo se chama', __name__)
-print(sys.path, sep = '\n')
+# print(sys.path, sep = '\n')

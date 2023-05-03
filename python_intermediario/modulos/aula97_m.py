@@ -1,1 +1,1 @@
-print('Este módulo chama', __name__)
+testando_importacao = 'Olá braseeeeeeeeeeeeeeeeel!'
