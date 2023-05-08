@@ -33,3 +33,5 @@ def e_string(param):
 inverte_string_checando_param = criar_funcao(inverte_string)
 invertida = inverte_string_checando_param('Anderson')
 print(invertida)
+
+# O código acima cria uma função decoradora, onde adiciona funcionalidades extras a uma função existente (inverte_string)
