@@ -10,12 +10,13 @@
 # popitem - Apaga o último item adicionado
 # update - Atualiza um dicionário com outro
 pessoa = {
-    'nome': 'Luiz Otávio',
+    'nome':'Anderson',
     'sobrenome': 'Miranda',
     # 'idade': 900,
 }
 # Função len que chama o método dunder len __len__
 print(len(pessoa))
+print(pessoa['nome'])
 
 # Função para retornar as chaves do dict 
 # Você pode retornar no tipo que preferri
