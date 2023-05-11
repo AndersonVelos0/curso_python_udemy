@@ -11,6 +11,12 @@
 # https://brasilescola.uol.com.br/matematica/fatorial.htm
 
 
+# Importando o módulo para setar outro valor para as funções recursivas 
+# import sys 
+# sys.setrecursionlimit(1004)
+
+
+
 # Criando uma função recursiva simples 
 # # Contando de um numero até outro numero
 # def recursiva(inicio = 0, fim = 10):
@@ -28,14 +34,27 @@
 # Corrigindo o erro acima, precisamos de um caso base
 
 
-def recursiva(inicio = 0, fim = 10):
-    # Caso base
-    if inicio >= fim:
-        return fim 
-    print(inicio, fim)
-    # Caso recursivo
-    # contar até chegar o final
-    inicio += 1
-    return recursiva(inicio, fim)
+# def recursiva(inicio = 0, fim = 10):
+#     # Caso base
+#     if inicio >= fim:
+#         return fim 
+#     print(inicio, fim)
+#     # Caso recursivo
+#     # contar até chegar o final
+#     inicio += 1
+#     return recursiva(inicio, fim)
 
-print(recursiva())
+# print(recursiva(0,1000))
+
+# Criando um fatorial 
+def fatorial(n):
+    if n <= 1:
+        return 1
+    
+    # dando o caso recursivo
+    return n * fatorial(n-1)
+
+
+print(fatorial(5))
+print(fatorial(10))
+print(fatorial(100))
