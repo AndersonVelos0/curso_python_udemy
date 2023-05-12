@@ -12,20 +12,20 @@
 
 
 # Importando o módulo para setar outro valor para as funções recursivas 
-# import sys 
-# sys.setrecursionlimit(1004)
+import sys 
+sys.setrecursionlimit(1004)
 
 
 
 # Criando uma função recursiva simples 
 # # Contando de um numero até outro numero
-# def recursiva(inicio = 0, fim = 10):
-#     # Caso recursivo
-#     # contar até chegar o final
-#     inicio += 1
-#     return recursiva(inicio, fim)
+def recursiva(inicio = 0, fim = 10):
+    # Caso recursivo
+    # contar até chegar o final
+    inicio += 1
+    return recursiva(inicio, fim)
 
-# recursiva()
+recursiva()
 
 # Nesse caso, ocorre o stack overflow, onde a recursão está retornando uma 
 # nova função a cada ciclo, onde carrega muita coisa na memória
@@ -34,19 +34,19 @@
 # Corrigindo o erro acima, precisamos de um caso base
 
 
-# def recursiva(inicio = 0, fim = 10):
-#     # Caso base
-#     if inicio >= fim:
-#         return fim 
-#     print(inicio, fim)
-#     # Caso recursivo
-#     # contar até chegar o final
-#     inicio += 1
-#     return recursiva(inicio, fim)
+def recursiva(inicio = 0, fim = 10):
+    # Caso base
+    if inicio >= fim:
+        return fim 
+    print(inicio, fim)
+    # Caso recursivo
+    # contar até chegar o final
+    inicio += 1
+    return recursiva(inicio, fim)
 
-# print(recursiva(0,1000))
+print(recursiva(0,1000))
 
-# Criando um fatorial 
+# # Criando um fatorial 
 def fatorial(n):
     if n <= 1:
         return 1
@@ -58,3 +58,5 @@ def fatorial(n):
 print(fatorial(5))
 print(fatorial(10))
 print(fatorial(100))
+
+ 
