@@ -58,9 +58,9 @@ caminho_arquivo += 'criando_arquivos.txt'
 #     print(arquivo.read())
 
 
-# Utilizando o encoding 
-with open(caminho_arquivo, 'w+') as arquivo:
-    arquivo.write('Atenção!!!!')
+# Utilizando o encoding, tem que alterar para utf8 
+with open(caminho_arquivo, 'w+', encoding='utf8') as arquivo:
+    arquivo.write('Atenção!!!!\n')
     arquivo.write('Linha 1 do arquivo\n')
     arquivo.write('Linha 2 do arquivo\n')
     # escrevendo varias linhas com writelines
