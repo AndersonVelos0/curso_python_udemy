@@ -29,30 +29,39 @@ caminho_arquivo += 'criando_arquivos.txt'
 # arquivo.close()
 
 # Utilizando o context manager
+# with open(caminho_arquivo, 'w+') as arquivo:
+#     # print('olá mundo!')
+#     # print('Arquivo será fechado!')
+#     arquivo.write('Linha 1 do arquivo\n')
+#     arquivo.write('Linha 2 do arquivo\n')
+#     # escrevendo varias linhas com writelines
+#     arquivo.writelines(('Linha 3\n','Linha 4\n'))
+#     # a função seek move o cursor para cima antes da quebra de linha
+#     arquivo.seek(0,0)
+#     arquivo.read()
+#     # lendo todos os arquivos de uma vez
+#     print('Lendo')
+#     arquivo.seek(0,0)
+#     print(arquivo.readline(), end = '')
+#     print(arquivo.readline().strip())
+#     print(arquivo.readline().strip())
+    
+#     print('Readlines')
+#     arquivo.seek(0,0)
+#     # lendo com readlinesss
+#     for linha in arquivo.readlines():
+#         print(linha.strip())
+
+# print('#' * 10)
+    
+# with open(caminho_arquivo, 'r') as arquivo:
+#     print(arquivo.read())
+
+
+# Utilizando o encoding 
 with open(caminho_arquivo, 'w+') as arquivo:
-    # print('olá mundo!')
-    # print('Arquivo será fechado!')
+    arquivo.write('Atenção!!!!')
     arquivo.write('Linha 1 do arquivo\n')
     arquivo.write('Linha 2 do arquivo\n')
     # escrevendo varias linhas com writelines
     arquivo.writelines(('Linha 3\n','Linha 4\n'))
-    # a função seek move o cursor para cima antes da quebra de linha
-    arquivo.seek(0,0)
-    arquivo.read()
-    # lendo todos os arquivos de uma vez
-    print('Lendo')
-    arquivo.seek(0,0)
-    print(arquivo.readline(), end = '')
-    print(arquivo.readline().strip())
-    print(arquivo.readline().strip())
-    
-    print('Readlines')
-    arquivo.seek(0,0)
-    # lendo com readlinesss
-    for linha in arquivo.readlines():
-        print(linha.strip())
-
-print('#' * 10)
-    
-with open(caminho_arquivo, 'r') as arquivo:
-    print(arquivo.read())
