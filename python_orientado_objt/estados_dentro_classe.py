@@ -29,9 +29,9 @@ class Camera:
         
 c1 = Camera('Cannon')
 c2 = Camera('Panasonic')
+c1.parar_filmar()
 c1.filmar()
 c1.filmar()
 c1.fotografar()
-c1.parar_filmar()
 c1.fotografar()
 
