@@ -28,7 +28,7 @@ class Caneta:
     @cor.setter
     def cor(self, valor):
         if valor == 'Rosa':
-           raise ValueError('Não aceito essa cor') 
+               raise ValueError('Não aceito essa cor') 
         self._cor = valor
 
 
